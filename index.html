@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio with resume and biodata pages">
+  <title>My Profile | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">My<span>Profile</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="biodata.html">Bio-data</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+        <h1>Hello, I'm <span>Your Name</span></h1>
+        <h2>Student • Learner • Aspiring Professional</h2>
+        <p class="intro">I am a motivated student who enjoys learning new technologies, solving problems and building useful projects. Explore my resume and bio-data to know more about me.</p>
+        <div class="button-row">
+          <a class="button" href="resume.html">View Resume</a>
+          <a class="button button-outline" href="biodata.html">View Bio-data</a>
+        </div>
+      </div>
+      <div class="profile-art" aria-label="Profile placeholder">
+        <div class="avatar">YN</div>
+        <p>YOUR PHOTO</p>
+        <small>Replace this circle with your photograph if required.</small>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">A QUICK INTRODUCTION</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="card-grid">
+        <article class="info-card"><div class="card-icon">🎓</div><h3>Education</h3><p>Currently pursuing an undergraduate degree. Add your college, course and year.</p></article>
+        <article class="info-card"><div class="card-icon">💡</div><h3>Interests</h3><p>Interested in technology, creativity, continuous learning and practical problem-solving.</p></article>
+        <article class="info-card"><div class="card-icon">🚀</div><h3>Career Goal</h3><p>To develop my skills and contribute to meaningful projects in a professional environment.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year"></span> Your Name. All rights reserved.</p></footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

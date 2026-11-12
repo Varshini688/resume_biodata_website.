@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">My<span>Profile</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="resume.html">Resume</a><a href="biodata.html">Bio-data</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page-wrap">
+    <div class="page-title"><p class="eyebrow">LET'S CONNECT</p><h1>Contact Me</h1><p>Have a question or opportunity? Send a message.</p></div>
+    <section class="contact-layout">
+      <div class="contact-card"><h2>Get in touch</h2><p class="muted">Replace these sample details with your own contact information.</p><p>✉️ youremail@example.com</p><p>📞 +91 00000 00000</p><p>📍 Your City, State</p></div>
+      <form class="contact-form" id="contact-form">
+        <label for="visitor-name">Your name</label><input id="visitor-name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="visitor-email">Email address</label><input id="visitor-email" name="email" type="email" placeholder="Enter your email" required>
+        <label for="visitor-message">Message</label><textarea id="visitor-message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        <button class="button" type="submit">Prepare Email</button>
+        <p class="form-note" id="form-note" role="status">This demo opens your email app; it does not store messages.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><p>© <span id="year"></span> Your Name.</p></footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="js/script.js"></script>
+</body>
+</html>
